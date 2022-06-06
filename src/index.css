@@ -48,14 +48,26 @@ section {
     margin-top: 0;
 }
 
+.cards__list {
+    display: flex;
+    flex-wrap: nowrap;
+    gap: 20px;
+    overflow-x: auto;
+}
+
 .card {
     width: 175px;
     font-size: 12px;
+    flex: 0 0 auto;         
+    display: flex;          
+    flex-direction: column;
 }
 
 .card__img {
+    height: 234px;
     width: 100%;
     border-radius: 9px;
+    margin-bottom: 9px;
 }
 
 .card__stats {
@@ -63,7 +75,15 @@ section {
     align-items: center;
 }
 
+.card__title {
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
 .card__star {
     height: 14px;
 }
 
+.card__price {
+    margin-top: auto;
+}
