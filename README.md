@@ -1,6 +1,13 @@
 # Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Training project along with scrimba react path.
+Since its small one to run it download repository and run npm start.
+
+## Tech stack:
+- React
+- JS
+- CSS 
+- HTML
 
 ## Available Scripts
 

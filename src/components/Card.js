@@ -13,7 +13,7 @@ function Card(props) {
             {(props.item.openSpots === 0 
                 || props.item.location === "Online") 
                 &&  <div className='card__badge'>{badgeText}</div>}
-            <img src={require(`../img/${props.item.coverImg}`)} className='card__img'/>
+            <img src={require(`../img/${props.item.coverImg}`)} className='card__img' alt='offer image'/>
             <div className='card__stats'>
                 <img src={require(`../img/Star.png`)} className='card__star'/>
                 <span>{props.item.stats.rating}</span>
